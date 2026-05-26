@@ -46,4 +46,10 @@ public class VentaController {
             return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
+    @GetMapping("/{id}")
+    public ResponseEntity<Venta> buscarPorId(@PathVariable Long id) {
+    return ventaService.buscarPorId(id)
+        .map(ResponseEntity::ok)
+        .orElse(ResponseEntity.notFound().build());
+}
 }
