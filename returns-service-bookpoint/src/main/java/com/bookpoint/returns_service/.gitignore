@@ -1,0 +1,8 @@
+/target/
+.mvn/
+.metadata/
+.classpath
+.project
+.settings/
+.vscode/
+*.class
