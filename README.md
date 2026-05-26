@@ -1,7 +1,7 @@
 # proyectobookpoint
 # Sistema de Gestión de Microservicios — BookPoint Chile
 
-## 👥 Integrantes del Equipo
+## Integrantes del Equipo
 * **Estudiante 1:** Sebastian Escalona
 * **Estudiante 2:** Cristobal Olivares
 * **Estudiante 3:** Flavio Bustos
